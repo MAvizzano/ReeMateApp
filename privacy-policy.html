@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacMate Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for MacMate and MacMate Server.">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #f6f8fb;
+            --bg-secondary: #eef2f8;
+            --surface: rgba(255, 255, 255, 0.82);
+            --surface-strong: rgba(255, 255, 255, 0.92);
+            --border: rgba(15, 23, 42, 0.08);
+            --text: #0f172a;
+            --text-secondary: #5b6474;
+            --text-tertiary: #7b8494;
+            --primary: #007aff;
+            --primary-strong: #2563eb;
+            --shadow: 0 24px 80px rgba(15, 23, 42, 0.10);
+            --radius-xl: 32px;
+            --radius-lg: 24px;
+            --width: 960px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f0f1e;
+                --bg-secondary: #1a1a2e;
+                --surface: rgba(255, 255, 255, 0.05);
+                --surface-strong: rgba(255, 255, 255, 0.08);
+                --border: rgba(255, 255, 255, 0.09);
+                --text: #ffffff;
+                --text-secondary: rgba(255, 255, 255, 0.72);
+                --text-tertiary: rgba(255, 255, 255, 0.48);
+                --primary: #409cff;
+                --primary-strong: #58a6ff;
+                --shadow: 0 30px 100px rgba(0, 0, 0, 0.35);
+            }
+        }
+
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top center, rgba(0, 122, 255, 0.10), transparent 28%),
+                linear-gradient(180deg, var(--bg) 0%, var(--bg-secondary) 100%);
+            line-height: 1.7;
+        }
+
+        a {
+            color: var(--primary-strong);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: min(calc(100% - 32px), var(--width));
+            margin: 0 auto;
+        }
+
+        .shell {
+            margin: 28px 0 40px;
+            padding: 28px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            background: linear-gradient(180deg, var(--surface-strong), var(--surface));
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(16px);
+        }
+
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .brand {
+            font-weight: 800;
+            letter-spacing: -0.03em;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: clamp(2.1rem, 5vw, 3.5rem);
+            letter-spacing: -0.05em;
+            line-height: 1.02;
+        }
+
+        .lead,
+        .meta,
+        p,
+        li {
+            color: var(--text-secondary);
+        }
+
+        .meta {
+            margin: 0 0 24px;
+            font-size: 0.95rem;
+        }
+
+        .card {
+            padding: 22px;
+            margin-top: 18px;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+            background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+        }
+
+        h2 {
+            margin: 0 0 10px;
+            letter-spacing: -0.03em;
+            font-size: 1.35rem;
+        }
+
+        ul {
+            margin: 10px 0 0;
+            padding-left: 20px;
+        }
+
+        footer {
+            padding: 0 0 36px;
+            text-align: center;
+            color: var(--text-tertiary);
+            font-size: 0.94rem;
+        }
+
+        @media (max-width: 640px) {
+            .shell { padding: 22px; }
+            .topbar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main class="shell">
+            <div class="topbar">
+                <div class="brand">MacMate</div>
+                <a href="index.html">← Back to support</a>
+            </div>
+
+            <h1>Privacy Policy</h1>
+            <p class="meta">Last updated: March 10, 2026</p>
+            <p class="lead">
+                This Privacy Policy explains how MacMate for iPhone and the companion Mac app, MacMate Server,
+                handle information when you use the apps.
+            </p>
+
+            <section class="card">
+                <h2>Summary</h2>
+                <ul>
+                    <li>MacMate is designed to work primarily on your local network between your iPhone and your Mac.</li>
+                    <li>We do not use third-party analytics, advertising SDKs, or cross-app tracking.</li>
+                    <li>We do not require account creation.</li>
+                    <li>Some data is stored locally on your devices to enable pairing, settings, and premium unlock status.</li>
+                    <li>If you choose to send feedback or contact support, you voluntarily provide the information included in your message.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Information the app may access</h2>
+                <ul>
+                    <li><strong>Local network and nearby device information:</strong> used to discover and connect your iPhone to your Mac through technologies such as local network discovery and peer-to-peer connectivity.</li>
+                    <li><strong>Camera access:</strong> used only when you choose to scan a QR code for pairing. Camera images are processed on-device for scanning and are not uploaded by the app.</li>
+                    <li><strong>Photos or videos you select:</strong> if you use the feedback form and choose attachments, the selected files are attached to your support email only when you decide to send it.</li>
+                    <li><strong>Microphone access on MacMate Server:</strong> used only for microphone mute related functionality if you enable and use that feature on the Mac companion app.</li>
+                    <li><strong>Purchase information:</strong> if you buy premium features, Apple processes the transaction. The app receives purchase status and transaction verification data needed to unlock features.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Information stored locally</h2>
+                <p>The apps may store the following data locally on your device:</p>
+                <ul>
+                    <li>pairing tokens and trusted device identifiers;</li>
+                    <li>connection preferences and selected communication channel;</li>
+                    <li>premium entitlement status;</li>
+                    <li>app settings and basic operational state needed for reconnection and usability.</li>
+                </ul>
+                <p>
+                    Sensitive pairing and security information is intended to be stored securely, such as in the Keychain when available.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>How information is used</h2>
+                <ul>
+                    <li>to discover and pair your iPhone with your Mac;</li>
+                    <li>to authenticate trusted devices and maintain a secure remote-control session;</li>
+                    <li>to enable remote control features such as media, volume, pointer, keyboard, and shortcuts;</li>
+                    <li>to restore premium access after purchase;</li>
+                    <li>to respond to support requests you choose to send.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Data sharing</h2>
+                <p>
+                    We do not sell your personal data. We do not share your data with advertising networks.
+                    Data may be shared only in the following limited cases:
+                </p>
+                <ul>
+                    <li><strong>Apple:</strong> for App Store distribution, in-app purchases, and system services.</li>
+                    <li><strong>Email provider:</strong> if you choose to send feedback or contact support by email.</li>
+                    <li><strong>Between your own devices:</strong> as needed to connect your iPhone and Mac for app functionality.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Tracking and analytics</h2>
+                <p>
+                    MacMate does not use tracking for advertising purposes and does not use third-party analytics SDKs.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Data retention</h2>
+                <p>
+                    Locally stored data remains on your device until you remove it, unpair devices, reset the app, or uninstall the app,
+                    subject to operating system behavior.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Your choices</h2>
+                <ul>
+                    <li>You can decide whether to grant camera or microphone permissions.</li>
+                    <li>You can remove paired devices and stored app data from within the app or by deleting the app.</li>
+                    <li>You can choose whether to send feedback emails and whether to include attachments.</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Children's privacy</h2>
+                <p>
+                    MacMate is not directed to children under 13, and we do not knowingly collect personal information from children.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Contact</h2>
+                <p>
+                    For privacy questions, you can contact us at:
+                    <a href="mailto:marco_avizzano@hotmail.it">marco_avizzano@hotmail.it</a>
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            © 2026 Marco Avizzano. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
