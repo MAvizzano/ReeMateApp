@@ -118,7 +118,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 14px;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: 16px;
         }
 
@@ -163,7 +163,9 @@
 
         .badge-link {
             display: inline-flex;
+            flex-direction: column;
             align-items: center;
+            gap: 5px;
             border-radius: 12px;
             opacity: 0.88;
             transition: transform 0.13s ease, opacity 0.13s;
@@ -177,6 +179,14 @@
         .badge-link img {
             height: 44px;
             width: auto;
+        }
+
+        .badge-link-sub {
+            font-size: 0.77rem;
+            font-weight: 400;
+            opacity: 0.65;
+            color: #f5f5f7;
+            letter-spacing: 0.01em;
         }
 
         .hero-meta {
@@ -323,7 +333,7 @@
         @media (max-width: 520px) {
             .hero-actions {
                 flex-wrap: wrap;
-                align-items: center;
+                align-items: flex-start;
             }
 
             .badge-link img {
@@ -378,6 +388,7 @@
                     </a>
                     <a class="badge-link" href="https://apps.apple.com/app/id6753078950" aria-label="Download ReeMate for iPhone on the App Store">
                         <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store">
+                        <span class="badge-link-sub">for iPhone &amp; iPad</span>
                     </a>
                 </div>
 
