@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>ReeMate Updates</title>
+    <link>https://mavizzano.github.io/ReeMateApp/</link>
+    <description>ReeMate macOS app updates</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
+      <sparkle:version>1001</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://mavizzano.github.io/ReeMateApp/index.html</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://github.com/MAvizzano/ReeMateApp/releases/download/1.0.1/ReeMateServer-1.0.1.dmg"
+        length="0"
+        type="application/octet-stream"
+        sparkle:edSignature="REPLACE_WITH_EDDSA_SIGNATURE" />
+    </item>
+
+  </channel>
+</rss>
