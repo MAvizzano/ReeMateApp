@@ -81,7 +81,7 @@ Recommended static structure:
 
 1. updates/appcast.xml
 2. updates/latest.json (optional for website UI)
-3. index.html with a latest update section
+3. releases/X.Y.Z.html (release notes pages)
 4. Binary artifacts hosted on GitHub Releases (dmg or zip)
 
 ## 3.2 appcast.xml responsibilities
@@ -102,7 +102,7 @@ Use this behavior when possible:
 
 1. appcast.xml: short cache or no-cache.
 2. versioned artifacts on GitHub Releases: CDN-managed cache.
-3. index.html: standard static-page cache.
+3. release notes pages: medium cache.
 
 On GitHub Pages, CDN cache may delay visibility for a few minutes.
 
@@ -114,7 +114,7 @@ Avoid: https://github.com/MAvizzano/ReeMateApp/releases/latest/download/ReeMateS
 
 ## 3.5 Release notes strategy
 
-Keep a latest update section in index.html with:
+Each release has one dedicated page with:
 
 1. changes summary.
 2. fixes.
@@ -128,7 +128,7 @@ Keep a latest update section in index.html with:
 3. Produce final artifact (dmg or zip).
 4. Generate EdDSA signature for artifact.
 5. Upload artifact to GitHub Releases with versioned filename and tag.
-6. Update the latest update section in index.html.
+6. Create release notes page (releases/X.Y.Z.html).
 7. Update appcast.xml with new item.
 8. Update optional latest.json.
 9. Validate download URL, signature, and release notes URL.
@@ -146,5 +146,5 @@ Keep a latest update section in index.html with:
 
 1. Keep private signing key outside source control.
 2. Keep appcast changes reviewed.
-3. Keep index latest update details synchronized with appcast item.
+3. Keep release notes synchronized with appcast item.
 4. Keep one source of truth for current stable version.

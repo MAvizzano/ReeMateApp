@@ -12,7 +12,7 @@
       <sparkle:version>1001</sparkle:version>
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://mavizzano.github.io/ReeMateApp/index.html</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://mavizzano.github.io/ReeMateApp/releases/1.0.1.html</sparkle:releaseNotesLink>
       <enclosure
         url="https://github.com/MAvizzano/ReeMateApp/releases/download/1.0.1/ReeMateServer-1.0.1.dmg"
         length="0"

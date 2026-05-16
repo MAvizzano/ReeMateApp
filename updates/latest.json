@@ -3,7 +3,7 @@
   "build": "1001",
   "publishedAt": "2026-05-16",
   "downloadUrl": "https://github.com/MAvizzano/ReeMateApp/releases/download/1.0.1/ReeMateServer-1.0.1.dmg",
-  "releaseNotesUrl": "https://mavizzano.github.io/ReeMateApp/index.html",
+  "releaseNotesUrl": "https://mavizzano.github.io/ReeMateApp/releases/1.0.1.html",
   "minimumMacOS": "14.6",
   "channel": "stable"
 }
