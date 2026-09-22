@@ -6,19 +6,14 @@
     <description>ReeMate macOS app updates</description>
     <language>en</language>
 
-    <item>
-      <title>Version 1.0.1</title>
-      <pubDate>Sat, 16 May 2026 12:00:00 +0000</pubDate>
-      <sparkle:version>1001</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://mavizzano.github.io/ReeMateApp/releases/1.0.1.html</sparkle:releaseNotesLink>
-      <enclosure
-        url="https://github.com/MAvizzano/ReeMateApp/releases/download/1.0.1/ReeMateServer-1.0.1.dmg"
-        length="0"
-        type="application/octet-stream"
-        sparkle:edSignature="REPLACE_WITH_EDDSA_SIGNATURE" />
-    </item>
+    <!--
+      Le voci si generano con generate_appcast, mai a mano: firma EdDSA, lunghezza
+      del file e numero di build devono corrispondere al DMG pubblicato, e una voce
+      con dati finti viene comunque offerta agli utenti come aggiornamento che
+      fallisce sempre. Procedura: Documentation/RELEASE_SERVER.md nel repo dell'app.
+
+      Sparkle confronta sparkle:version (CFBundleVersion). Ultima build pubblicata: 1 (ReeMate 1.0).
+    -->
 
   </channel>
 </rss>

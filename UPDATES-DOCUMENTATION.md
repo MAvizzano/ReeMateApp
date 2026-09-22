@@ -3,6 +3,9 @@
 This document explains the update flow for ReeMate.
 Scope: update logic only, not full CI/CD setup.
 
+Step-by-step checklist for publishing a release (build number, notarization,
+`generate_appcast`, rollback): `Documentation/RELEASE_SERVER.md` in the app repo.
+
 ## 1) Overview
 
 ReeMate updates are composed of two parts:
