@@ -12,8 +12,19 @@
       con dati finti viene comunque offerta agli utenti come aggiornamento che
       fallisce sempre. Procedura: Documentation/RELEASE_SERVER.md nel repo dell'app.
 
-      Sparkle confronta sparkle:version (CFBundleVersion). Ultima build pubblicata: 1 (ReeMate 1.0).
+      Sparkle confronta sparkle:version (CFBundleVersion). Ultima build pubblicata: 3 (ReeMate 1.1.0).
     -->
+
+    <item>
+        <title>1.1.0</title>
+        <pubDate>Wed, 23 Sep 2026 23:08:21 +0200</pubDate>
+        <link>https://mavizzano.github.io/ReeMateApp/</link>
+        <sparkle:version>3</sparkle:version>
+        <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+        <sparkle:releaseNotesLink>https://mavizzano.github.io/ReeMateApp/releases/ReeMateServer-1.1.0.html</sparkle:releaseNotesLink>
+        <enclosure url="https://github.com/MAvizzano/ReeMateApp/releases/download/1.1.0/ReeMateServer-1.1.0.dmg" length="4977853" type="application/octet-stream" sparkle:edSignature="xkX/wtezPPtA1zfW5k9ivN/LaUrA9VTIiH1EOfvSUSSQjj6tWjLRHuYRH06DRLYFR21g/cN95nvGFRasLfwpAA=="/>
+    </item>
 
   </channel>
 </rss>

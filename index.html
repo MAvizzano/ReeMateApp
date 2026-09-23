@@ -161,6 +161,13 @@
             opacity: 0.78;
         }
 
+        .download-mac {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
         .badge-link {
             display: inline-flex;
             flex-direction: column;
@@ -377,15 +384,18 @@
                 </p>
 
                 <div class="hero-actions">
-                    <a class="btn-primary" href="https://github.com/MAvizzano/ReeMateApp/releases/download/1.0/ReeMateServer-1.0.dmg" aria-label="Download ReeMate Server for Mac" download>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-                        </svg>
-                        <span class="btn-primary-sub">
-                            Download for Mac
-                            <small>macOS 14.6+</small>
-                        </span>
-                    </a>
+                    <div class="download-mac">
+                        <a class="btn-primary" href="https://github.com/MAvizzano/ReeMateApp/releases/download/1.1.0/ReeMateServer-1.1.0.dmg" aria-label="Download ReeMate Server 1.1.0 for Mac" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+                            </svg>
+                            <span class="btn-primary-sub">
+                                Download for Mac
+                                <small>macOS 14.6+</small>
+                            </span>
+                        </a>
+                        <span class="badge-link-sub">Version 1.1.0</span>
+                    </div>
                     <a class="badge-link" href="https://apps.apple.com/app/id6753078950" aria-label="Download ReeMate for iPhone on the App Store">
                         <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store">
                         <span class="badge-link-sub">for iPhone &amp; iPad</span>

@@ -1,8 +1,8 @@
 {
-  "version": "1.0",
-  "build": "1",
-  "publishedAt": "2026-05-06",
-  "downloadUrl": "https://github.com/MAvizzano/ReeMateApp/releases/download/1.0/ReeMateServer-1.0.dmg",
+  "version": "1.1.0",
+  "build": "3",
+  "publishedAt": "2026-09-23",
+  "downloadUrl": "https://github.com/MAvizzano/ReeMateApp/releases/download/1.1.0/ReeMateServer-1.1.0.dmg",
   "minimumMacOS": "14.6",
   "channel": "stable"
 }
